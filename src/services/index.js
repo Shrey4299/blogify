@@ -25,7 +25,7 @@ db.address = require("../api/address/models/address")(sequelize, Sequelize);
 db.roles = require("../api/role/models/role")(sequelize, Sequelize);
 db.products = require("../api/product/models/product")(sequelize, Sequelize);
 db.variants = require("../api/variant/models/variant")(sequelize, Sequelize);
-db.reviews = require("../api/review/models/Review")(sequelize, Sequelize);
+db.reviews = require("../api/review/models/review")(sequelize, Sequelize);
 db.categories = require("../api/category/models/category")(
   sequelize,
   Sequelize
